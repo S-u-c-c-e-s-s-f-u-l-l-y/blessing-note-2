@@ -81,7 +81,7 @@ function createNote(){
 }
 
 //延时逐个生成便签，复刻原来动画效果
-function spawnLoop(remaining, delayMs=500){
+function spawnLoop(remaining, delayMs=200){
     if(remaining <=0) return;
     createNote();
     setTimeout(()=>{
